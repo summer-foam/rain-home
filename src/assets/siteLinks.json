@@ -1,37 +1,37 @@
 [
   {
+    "icon": "InfoCircle",
+    "name": "关于",
+    "link": "https://about.exusiai.space/"
+  },
+  {
     "icon": "Blog",
-    "name": "博客",
-    "link": "https://blog.imsyy.top/"
+    "name": "划水博客",
+    "link": "https://blog.exusiai.space/"
   },
   {
     "icon": "Cloud",
-    "name": "网盘",
-    "link": "https://pan.imsyy.top/"
+    "name": "云端硬盘",
+    "link": "https://cloud.exusiai.space/"
   },
   {
-    "icon": "CompactDisc",
-    "name": "音乐",
-    "link": "https://music.imsyy.top/"
+    "icon": "PlayCircle",
+    "name": "媒体库",
+    "link": "https://bangumi.exusiai.space/"
   },
   {
-    "icon": "Compass",
-    "name": "起始页",
-    "link": "https://nav.imsyy.top/"
-  },
-  {
-    "icon": "Book",
-    "name": "网址集",
-    "link": "https://web.imsyy.top/"
-  },
-  {
-    "icon": "Fire",
-    "name": "今日热榜",
-    "link": "https://hot.imsyy.top/"
+    "icon": "Dropbox",
+    "name": "资源下载",
+    "link": "https://down.exusiai.space/"
   },
   {
     "icon": "LaptopCode",
     "name": "站点监测",
-    "link": "https://status.imsyy.top/"
+    "link": "https://status.exusiai.space/"
+  },
+  {
+    "icon": "Microsoft",
+    "name": "E5-Renew",
+    "link": "e5sub.exusiai.space"
   }
 ]
