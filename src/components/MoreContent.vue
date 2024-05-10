@@ -1,5 +1,5 @@
 <template>
-  <div class="more-content">您可在此编写任意内容</div>
+  <div class="more-content">理想主义是，你可能永远无法得到回报，但依然决定给予</div>
 </template>
 
 <style lang="scss" scoped>
