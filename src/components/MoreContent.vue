@@ -1,10 +1,24 @@
 <template>
-  <div class="more-content">理想主义是，你可能永远无法得到回报，但依然决定给予</div>
+  <div class="more-content">
+
+  </div>
 </template>
+
+<script>
+export default {
+  props: {
+    character: {
+      type: Object,
+      required: true
+    }
+  }
+};
+</script>
 
 <style lang="scss" scoped>
 .more-content {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-top: 20px;

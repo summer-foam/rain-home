@@ -43,9 +43,9 @@ const changeBg = (type) => {
   } else if (type == 1) {
     bgUrl.value = "https://api.dujin.org/bing/1920.php";
   } else if (type == 2) {
-    bgUrl.value = "https://api.aixiaowai.cn/gqapi/gqapi.php";
+    bgUrl.value = "https://api.vvhan.com/api/wallpaper/views";
   } else if (type == 3) {
-    bgUrl.value = "https://api.aixiaowai.cn/api/api.php";
+    bgUrl.value = "https://api.vvhan.com/api/wallpaper/acg";
   }
 };
 
@@ -120,12 +120,12 @@ onBeforeUnmount(() => {
     object-fit: cover;
     backface-visibility: hidden;
     filter: blur(20px) brightness(0.3);
-    transition:
-      filter 0.3s,
-      transform 0.3s;
+    transition: filter 0.3s,
+    transform 0.3s;
     animation: fade-blur-in 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
     animation-delay: 0.45s;
   }
+
   .gray {
     opacity: 1;
     position: absolute;
@@ -134,14 +134,16 @@ onBeforeUnmount(() => {
     width: 100%;
     height: 100%;
     background-image: radial-gradient(rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.5) 100%),
-      radial-gradient(rgba(0, 0, 0, 0) 33%, rgba(0, 0, 0, 0.3) 166%);
+    radial-gradient(rgba(0, 0, 0, 0) 33%, rgba(0, 0, 0, 0.3) 166%);
 
     transition: 1.5s;
+
     &.hidden {
       opacity: 0;
       transition: 1.5s;
     }
   }
+
   .down {
     font-size: 16px;
     color: white;
@@ -159,10 +161,12 @@ onBeforeUnmount(() => {
     display: flex;
     justify-content: center;
     align-items: center;
+
     &:hover {
       transform: scale(1.05);
       background-color: #00000060;
     }
+
     &:active {
       transform: scale(1);
     }
